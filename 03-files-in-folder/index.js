@@ -12,4 +12,4 @@ fs.promises.readdir(secretFolderPath, {withFileTypes: true})
         console.log(`${fileNameData[0]} - ${fileNameData[1]} - ${stats.size} bytes`)
       )
     });
-  })
+  });
